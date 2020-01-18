@@ -1,0 +1,144 @@
+body {
+  line-height: 25px;
+  width: 650px;
+  margin: auto;
+  margin-top: 75px;
+  font-family: 'Karla', sans-serif;
+  color: rgb(253, 244, 244);
+}
+
+#title {
+  color: hsl(179, 62%, 43%);
+}
+
+#paragraph {
+  margin-top: 0px;
+}
+
+#subtitle{
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 10px;
+}
+
+#text {
+  color: hsl(207, 7%, 75%);
+  font-weight: 400;
+  margin-top: 0;
+}
+
+span{
+  font-size: 0.9rem;
+  color: rgb(139, 221, 218);
+  vertical-align: 20%;
+  font-weight: 100;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 90%;
+    box-shadow: 0px 0px 50px rgb(39, 153, 147);
+    margin: 15px 5px 15px 5px;
+}
+
+button:hover{
+  background-color: hsl(71, 63%, 51%);
+  box-shadow: 0px 0px 50px rgb(54, 201, 193);
+}
+
+button > a {
+  color: white;  
+}
+
+
+.main-container {
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 10px;
+}
+
+.container-1 {
+  display: flex;
+}
+
+.box-1{
+  background-color: rgb(255, 254, 254);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 30px 30px 30px 40px;
+  height: 160px;
+}
+
+.box-2{
+  flex: 1;
+  background-color: rgb(46, 179, 172);
+  border-bottom-left-radius: 10px;
+  height: 230px;
+  padding: 30px 30px 20px 40px;
+}
+
+.box-3{
+  flex: 1;
+  background-color: rgb(77, 196, 190);
+  border-bottom-right-radius: 10px;
+  line-height: 22px;
+  color: rgb(218, 255, 253);
+  height: 230px;
+  padding: 30px 30px 20px 40px;
+}
+
+#advantages {
+  line-height: 22px;
+  font-size: 0.85rem;
+  color: rgb(218, 255, 253);
+}
+
+#month-price {
+  margin-bottom: 10px;
+}
+
+.attribution, a{
+  text-align: center;
+  color: grey;
+  text-decoration: none;
+  margin-top: 30px;
+
+}
+
+@media(max-width: 768px){
+  body {
+    width: 300px;
+  }
+  .main-container{
+    width: 300px;
+  }
+
+  .container-1 {
+  flex-direction: column;
+  width: 300px;
+  }
+
+  .box-1 {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    height: 300px;
+  }
+
+  .box-2 {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  
+  .box-3{
+    padding: 10px 10px 10px 40px;
+  }
+  
+
+  
+
+}
